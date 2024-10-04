@@ -93,3 +93,20 @@ body {
         grid-template-columns: 1fr;
     }
 }
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-container p {
+    margin: 10px 0;
+    font-size: 14px;
+}
