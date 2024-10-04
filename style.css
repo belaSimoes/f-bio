@@ -52,18 +52,6 @@ body {
     background-color: #f0f0f0;
 }
 
-/* Botão Estilizado */
-.navbar .btn-highlight {
-    background-color: #222;
-    color: white;
-    padding: 10px 20px;
-    border-radius: 25px;
-    transition: background-color 0.3s ease;
-}
-
-.navbar .btn-highlight:hover {
-    background-color: #f4b400;
-}
 
 /* Responsividade */
 @media (max-width: 768px) {
