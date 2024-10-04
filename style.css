@@ -1,4 +1,4 @@
-/* Estilos gerais */
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -7,7 +7,6 @@ body {
     color: #333;
 }
 
-/* Navbar */
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -26,51 +25,6 @@ body {
     font-size: 24px;
 }
 
-.nav-links {
-    list-style: none;
-    display: flex;
-    margin: 0;
-}
-
-.nav-links li {
-    margin-left: 30px;
-}
-
-.nav-links a {
-    color: #222;
-    text-decoration: none;
-    font-size: 16px;
-    font-weight: bold;
-    text-transform: uppercase;
-    padding: 8px 12px;
-    transition: color 0.3s ease, background-color 0.3s ease;
-    border-radius: 4px;
-}
-
-.nav-links a:hover {
-    color: #f4b400;
-    background-color: #f0f0f0;
-}
-
-
-/* Responsividade */
-@media (max-width: 768px) {
-    .navbar {
-        flex-direction: column;
-        align-items: flex-start;
-    }
-    
-    .nav-links {
-        flex-direction: column;
-        width: 100%;
-    }
-
-    .nav-links li {
-        margin: 10px 0;
-    }
-}
-
-/* Grid de Imagens */
 .image-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
