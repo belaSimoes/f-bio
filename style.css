@@ -41,7 +41,6 @@ body {
     border-radius: 10px;
 }
 
-/* Responsividade para telas menores */
 @media (max-width: 768px) {
     .image-grid {
         grid-template-columns: 1fr;
